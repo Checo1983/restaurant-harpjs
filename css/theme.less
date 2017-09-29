@@ -9,6 +9,7 @@ body {
   color: @primary-text; 
 }
 
+//Header 
 .header .container {
   background: @primary-background;
   padding-left: 0;
@@ -17,6 +18,28 @@ body {
 
 .header {
   padding: (@padding * 4) 0;
+}
+
+//Navigation
+.main-nav {
+  line-height: 36px; // vertical center with logo
+}
+
+.main-nav ul {
+  margin-bottom: 0;
+}
+
+.main-nav li.divider {
+  color: @grey;
+}
+
+.main-nav a {
+  text-decoration: none;
+}
+
+.main-nav a:hover {
+  border-bottom: (@border-size * 5) @border-type @grey;
+  transition: border-color 0.2s ease;
 }
 
 ul,
