@@ -1,5 +1,6 @@
 @import "components/_variables";
 @import "components/_typography";
+@import "components/_carousel.less";
 
 body {
   background: @primary-background;
@@ -68,6 +69,11 @@ body {
 // add a little extra padding under images
 .home-food img {
   padding-bottom: @padding;
+}
+
+// add review padding consistent with about
+.reviews {
+  padding: (@padding * 4) 0 (@padding * 6) 0;
 }
 
 
